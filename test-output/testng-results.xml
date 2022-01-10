@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-04T11:13:30 CST" name="Suite" finished-at="2022-01-04T11:15:12 CST" duration-ms="102668">
+    <groups>
+    </groups>
+    <test started-at="2022-01-04T11:13:30 CST" name="Test" finished-at="2022-01-04T11:15:12 CST" duration-ms="102668">
+      <class name="RediffTestCases.RediffLogInProp">
+        <test-method signature="login1()[pri:0, instance:RediffTestCases.RediffLogInProp@6631f5ca]" started-at="2022-01-04T11:13:30 CST" name="login1" finished-at="2022-01-04T11:15:06 CST" duration-ms="96095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method signature="login()[pri:0, instance:RediffTestCases.RediffLogInProp@6631f5ca]" started-at="2022-01-04T11:13:30 CST" name="login" finished-at="2022-01-04T11:15:12 CST" duration-ms="102590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- RediffTestCases.RediffLogInProp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
