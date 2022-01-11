@@ -5,7 +5,7 @@
     <classes>
       <class name="RediffTestCases.RediffLogInProp">
         <methods>
-          <include name="login"/>
+          <include name="login1"/>
         </methods>
       </class> <!-- RediffTestCases.RediffLogInProp -->
     </classes>

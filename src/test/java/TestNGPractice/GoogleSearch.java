@@ -20,8 +20,8 @@ public class GoogleSearch {
 		driver = new ChromeDriver();
 		//WebDriverManager.firefoxdriver().setup();
 		//driver=new FirefoxDriver();
-		System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\Webdrivers\\geckodriver.exe");
-		driver=new FirefoxDriver();
+		//System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\Webdrivers\\geckodriver.exe");
+		//driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}

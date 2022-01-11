@@ -26,7 +26,7 @@ public class RediffLogInProp {
 		Thread.sleep(3000);
 		
 		Properties prop = new Properties(); 
-		FileInputStream fis = new FileInputStream("C:\\\\Users\\\\Deepali\\\\eclipse-workspace\\\\AnandSir-Maven\\\\src\\\\test\\\\java\\\\RediffRepositoryPages\\\\data.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\Deepali\\git\\Test-Project-\\AnandSir-Maven\\data.properties");
 		prop.load(fis);
 
 		RediffLoginPage rl = new RediffLoginPage(driver);
@@ -51,7 +51,7 @@ public class RediffLogInProp {
 	  
 	  Properties prop = new Properties(); FileInputStream fis = new
 	  FileInputStream(
-	  "C:\\Users\\Deepali\\eclipse-workspace\\AnandSir-Maven\\src\\test\\java\\RediffRepositoryPages\\data.properties"
+	  "C:\\\\Users\\\\Deepali\\\\git\\\\Test-Project-\\\\AnandSir-Maven\\\\data.properties"
 	  ); prop.load(fis);
 	  
 	  RediffLoginPagePF rl = new RediffLoginPagePF(driver);
